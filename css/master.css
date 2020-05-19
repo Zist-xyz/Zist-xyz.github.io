@@ -1,16 +1,30 @@
-:root {
 
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  font-family: Helvetica;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
 .site__title {
-  font-size: 60px;
+  font-size: 82px;
   width: 50%;
-  font-style: normal;
+  font-style: light;
   text-align: center;
   color: #707070;
 }
+
+.site__title-text {
+  text-transform: capitalize;
+}
+
+.jumbotron {
+    background: none
+}
+
 
 
 .vertical-center {
