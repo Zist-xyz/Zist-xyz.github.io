@@ -1,0 +1,22 @@
+:root {
+
+}
+
+
+
+.site__title {
+  font-size: 60px;
+  width: 50%;
+  font-style: normal;
+  text-align: center;
+  color: #707070;
+}
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  background-color:transparent !important;
+}
